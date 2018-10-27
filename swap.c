@@ -8,6 +8,9 @@ void main()
 	printf("\n Values before swapping");
 	printf("\n X: %d\n Y:%d\n", x,y);
 
+	int temp=x;
+	x=y;
+	y = temp;
 	printf("\n Values before swapping");
 	printf("\n X: %d\n Y:%d\n", x,y);
 
